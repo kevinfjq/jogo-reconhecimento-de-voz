@@ -4,7 +4,8 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
 
-recognition.lang = 'pt-Br';
+recognition.lang = idioma;
+
 recognition.start();
 
 recognition.addEventListener("result", onSpeak);
@@ -16,9 +17,16 @@ function onSpeak(evento) {
 }
 
 function exibeChuteNaTela(chute) {
-    elementoChute.innerHTML = `
-    <div>Você disse</div>
-    <span class="box">${chute}</span>   `
+    elementoChute.innerHTML = `<div>${textoChute}</div>
+    <span class="box">${chute}</span>`;
 }
 
 recognition.addEventListener("end", () => recognition.start());
+
+
+
+
+
+
+
+

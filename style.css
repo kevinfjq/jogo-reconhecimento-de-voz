@@ -52,3 +52,19 @@ h3 {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+#btn-idioma {
+    padding: 8px;
+    background-color: #E8F9FD;
+    border:1.5px solid #000000;
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#btn-idioma:active {
+    background-color: #C5D7DA;
+}
