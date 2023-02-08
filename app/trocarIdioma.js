@@ -32,9 +32,7 @@ function trocaIdioma(){
 
         document.querySelector("body  h1").innerHTML = "Guess the secret number";
 
-        console.log(idioma);
-
-        document.querySelector(".titulo-3-principal").innerHTML = `The secret number is between <span id="menor-valor">${menorValor}</span> e <span id="maior-valor">${maiorValor}</span>`;
+        document.querySelector(".titulo-3-principal").innerHTML = `The secret number is between <span id="menor-valor">${menorValor}</span> and <span id="maior-valor">${maiorValor}</span>`;
 
         textoBotao = '<button id="jogar-novamente" class="btn-jogar">Play Again</button>'
 
@@ -63,7 +61,7 @@ function trocaIdioma(){
     
         document.querySelector("body > h1").innerHTML = "Acerte o número secreto" 
 
-        document.querySelector(".titulo-3-principal").innerHTML = `O número secreto está entre <span id="menor-valor">${menorValor}</span> e<span id="maior-valor">${maiorValor}</span>`;
+        document.querySelector(".titulo-3-principal").innerHTML = `O número secreto está entre <span id="menor-valor">${menorValor}</span> e <span id="maior-valor">${maiorValor}</span>`;
 
         textoBotao = '<button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>'
 
